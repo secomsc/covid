@@ -25,19 +25,10 @@ font-weight: bold;}
   font-size: 18px;
   line-height: 1.6;
   color: #333;
-  padding-top:50px 15px 50px 15px;
+  padding: 50px 15px 50px 15px;
 }
 
-.skew-1, .skew-2, .skew-3 {
-  float: left;
-  width: 19%;
-  margin-right: 0.7%;
-  height: 300px;
-  -webkit-transform: skew(0deg); /* Chrome, Opera */
-      -ms-transform: skew(0deg); /* IE */
-          transform: skew(0deg); /* Padrão */
-  overflow: hidden;
-}
+
 
 .positive {
   -webkit-transform: skew(10deg); /* Chrome, Opera */
@@ -207,7 +198,7 @@ background-size: contain;
     float: left;
     width: 32%;
     margin-right: 1%;
-    height: 300px;
+    height: 150px;
     -webkit-transform: skew(0deg); /* Chrome, Opera */
         -ms-transform: skew(0deg); /* IE */
             transform: skew(0deg); /* Padrão */
@@ -218,7 +209,7 @@ background-size: contain;
     float: left;
     width: 65%;
     margin-right: 1%;
-    height: 300px;
+    height: 150px;
     -webkit-transform: skew(0deg); /* Chrome, Opera */
         -ms-transform: skew(0deg); /* IE */
             transform: skew(0deg); /* Padrão */
@@ -229,7 +220,7 @@ background-size: contain;
       float: left;
       width: 100%;
       margin-right: 0;
-      height: 300px;
+      height: 150px;
       -webkit-transform: skew(0deg); /* Chrome, Opera */
           -ms-transform: skew(0deg); /* IE */
               transform: skew(0deg); /* Padrão */
@@ -253,5 +244,16 @@ background-size: contain;
     width: 70%;
     margin-left: 15%;
     min-width: 754px;
+  }
+
+  .skew-1, .skew-2, .skew-3 {
+    float: left;
+    width: 19%;
+    margin-right: 0.7%;
+    height: 300px;
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+        -ms-transform: skew(0deg); /* IE */
+            transform: skew(0deg); /* Padrão */
+    overflow: hidden;
   }
 }
