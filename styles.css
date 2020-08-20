@@ -246,7 +246,29 @@ background-size: contain;
     min-width: 754px;
   }
 
-  .skew-1, .skew-2, .skew-3 {
+  .skew-1 {
+    float: left;
+    width: 19%;
+    margin-right: 0.7%;
+    height: 300px;
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+        -ms-transform: skew(0deg); /* IE */
+            transform: skew(0deg); /* Padrão */
+    overflow: hidden;
+  }
+
+  .skew-2 {
+    float: left;
+    width: 19%;
+    margin-right: 0.7%;
+    height: 300px;
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+        -ms-transform: skew(0deg); /* IE */
+            transform: skew(0deg); /* Padrão */
+    overflow: hidden;
+  }
+
+  .skew-3 {
     float: left;
     width: 19%;
     margin-right: 0.7%;
