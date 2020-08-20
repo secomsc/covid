@@ -129,6 +129,10 @@ background-size: contain;
     margin: 20px 0 20px 0;
   }
 
+  titulo {
+    font-size: 3em;
+  }
+
   .olho {
     width:80%;
     margin: 20px 10% 10px 10%;
