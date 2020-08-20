@@ -226,7 +226,13 @@ background-size: contain;
               transform: skew(0deg); /* Padrão */
       overflow: hidden;
     }
-  }
+
+    titulo {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3em;
+      text-align: center;
+      margin-top: 50px;
+    }
 
 }
 
