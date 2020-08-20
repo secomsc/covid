@@ -1,6 +1,19 @@
+body {
+  font-size: 1.1em;
+  font-family: 'Source Sans Pro',sans-serif,Tahoma,Geneva;
+  line-height: 1.6;
+  color: #333;
+}
+
 .navbar {
   background-color: #333333;
   text-align: left;
+  text-transform: uppercase;
+}
+
+.active {
+  font-weight: bold;
+  color: #DDD;
 }
 
 .navbar-brand {
@@ -22,9 +35,6 @@ font-weight: bold;}
 
 #tudo {
   font-family: 'Source Sans Pro',sans-serif,Tahoma,Geneva;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #333;
   padding: 50px 15px 50px 15px;
 }
 
@@ -47,7 +57,7 @@ titulo {
 
 titulo-menor {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 50px;
 }
 
@@ -66,7 +76,7 @@ apoio {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 2em
 }
 
