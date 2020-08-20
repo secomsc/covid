@@ -149,7 +149,7 @@ background-size: contain;
   padding-top: 40%;
   border-radius: 50%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat
   }
 
@@ -167,6 +167,10 @@ background-size: contain;
 
   .skew-1, .skew-2, .skew-3 {
     display: none;
+  }
+
+  #tudo {
+    padding: 0 15px;
   }
 
 }
