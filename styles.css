@@ -165,73 +165,9 @@ background-size: contain;
   }
 
 
-  .skew-1 {
-    float: left;
-    width: 32%;
-    margin-right: 1%;
-    height: 150px;
-    -webkit-transform: skew(0deg); /* Chrome, Opera */
-        -ms-transform: skew(0deg); /* IE */
-            transform: skew(0deg); /* Padrão */
-    overflow: hidden;
+  .skew-1, .skew-2, .skew-3 {
+    display: none;
   }
-
-  .skew-2, {
-    float: left;
-    width: 65%;
-    margin-right: 1%;
-    height: 150px;
-    -webkit-transform: skew(0deg); /* Chrome, Opera */
-        -ms-transform: skew(0deg); /* IE */
-            transform: skew(0deg); /* Padrão */
-    overflow: hidden;
-  }
-
-    .skew-3 {
-      float: left;
-      width: 100%;
-      margin-right: 0;
-      height: 150px;
-      -webkit-transform: skew(0deg); /* Chrome, Opera */
-          -ms-transform: skew(0deg); /* IE */
-              transform: skew(0deg); /* Padrão */
-      overflow: hidden;
-    }
-
-    titulo {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3em;
-      text-align: center;
-      margin-top: 50px;
-    }
-
-    .positive {
-      -webkit-transform: skew(10deg); /* Chrome, Opera */
-          -ms-transform: skew(10deg); /* IE */
-              transform: skew(10deg); /* Padrão */
-    }
-
-    .negative {
-      -webkit-transform: skew(-10deg); /* Chrome, Opera */
-          -ms-transform: skew(-10deg); /* IE */
-              transform: skew(-10deg); /* Padrão */
-      }
-
-    .bg-1 {
-      position: relative;
-      left:-50px;
-      -webkit-transform: skew(-10deg); /* Chrome, Opera */
-          -ms-transform: skew(-10deg); /* IE */
-              transform: skew(-10deg); /* Padrão */
-    }
-
-    .bg-2 {
-      position: relative;
-      left:-50px;
-      -webkit-transform: skew(-10deg); /* Chrome, Opera */
-          -ms-transform: skew(-10deg); /* IE */
-              transform: skew(-10deg); /* Padrão */
-    }
 
 }
 
