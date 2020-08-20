@@ -1,0 +1,218 @@
+.navbar {
+  background-color: #333333;
+  text-align: left;
+}
+
+.navbar-brand {
+  margin-right: 30px;
+}
+
+.theme-button {
+  background-color: #333333;
+  color: #DDDDDD;
+}
+
+.cap {
+float: left;
+line-height: 0.8;
+font-size: 4em;
+margin-right: 0.1em;
+font-weight: bold;}
+}
+
+#tudo {
+  font-family: 'Source Sans Pro',sans-serif,Tahoma,Geneva;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  padding-top:50px;
+}
+
+.skew {
+  float: left;
+  width: 19%;
+  margin-right: 0.7%;
+  height: 300px;
+  -webkit-transform: skew(0deg); /* Chrome, Opera */
+      -ms-transform: skew(0deg); /* IE */
+          transform: skew(0deg); /* Padrão */
+  overflow: hidden;
+}
+
+.positive {
+  -webkit-transform: skew(10deg); /* Chrome, Opera */
+      -ms-transform: skew(10deg); /* IE */
+          transform: skew(10deg); /* Padrão */
+}
+
+.negative {
+  -webkit-transform: skew(-10deg); /* Chrome, Opera */
+      -ms-transform: skew(-10deg); /* IE */
+          transform: skew(-10deg); /* Padrão */
+  }
+
+.bg-1 {
+  position: relative;
+  left:-50px;
+  -webkit-transform: skew(-10deg); /* Chrome, Opera */
+      -ms-transform: skew(-10deg); /* IE */
+          transform: skew(-10deg); /* Padrão */
+}
+
+.bg-2 {
+  position: relative;
+  left:-50px;
+  -webkit-transform: skew(-10deg); /* Chrome, Opera */
+      -ms-transform: skew(-10deg); /* IE */
+          transform: skew(-10deg); /* Padrão */
+}
+
+titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: center;
+  padding: 0 10%;
+}
+
+titulo-menor {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+apoio {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+  margin-top: 50px;
+}
+.foto-principal {
+  text-align: right;
+  font-size: 0.8em;
+  width:100%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2em
+}
+
+.carousel-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.imagemdireita {
+  float:right;
+  width:50%;
+  margin-left:15px;
+  margin-bottom:15px;
+}
+
+.olho-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float:left;
+  padding: 20px 0 20px 5%;
+  margin: 30px 0 30px 0;
+  background-image: url("aspa.fw.png");
+  background-repeat: no-repeat;
+}
+
+.olho {
+  font-family: Trebuchet MS, serif;
+  background-repeat: no-repeat;
+  font-size: 1.6em;
+  color: #000;
+  line-height: 1.4em;
+  float: left;
+  text-align: right;
+  padding-left: 5px;
+  margin-right: 5%;
+  width: 60%;
+}
+
+.autor {
+font: 14px Arial, Helvetica, sans-serif;
+line-height: 140%;
+margin-top: 10px;
+}
+
+.boneco {
+float: right;
+width: 25%;
+padding-top: 25%;
+border-radius: 50%;
+background-position: center;
+background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .olho-container {
+    display: block;
+    padding: 0;
+    background: none;
+    margin: 20px 0 20px 0;
+  }
+
+  .olho {
+    width:80%;
+    padding: 20px 10% 10px 10%;
+    float: none;
+    text-align: center;
+    background-image: url("aspa.fw.png");
+    background-repeat: no-repeat;
+  }
+
+  .boneco {
+    display:none;
+  }
+
+  .boneco-mobile {
+  width: 40%;
+  margin-left: 30%;
+  float: none;
+  padding-top: 40%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat
+  }
+
+  .imagemdireita {
+    float:right;
+    width:100%;
+    margin-bottom:15px;
+    margin-top:15px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  .boneco-mobile {
+    display: none;
+  }
+
+  #tudo {
+    width:754px;
+    margin-left:300px;
+  }
+
+  #slider {
+    width: 70%;
+    margin-left: 15%;
+    min-width: 754px;
+  }
+}
