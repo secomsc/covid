@@ -29,35 +29,6 @@ font-weight: bold;}
 }
 
 
-
-.positive {
-  -webkit-transform: skew(10deg); /* Chrome, Opera */
-      -ms-transform: skew(10deg); /* IE */
-          transform: skew(10deg); /* Padrão */
-}
-
-.negative {
-  -webkit-transform: skew(-10deg); /* Chrome, Opera */
-      -ms-transform: skew(-10deg); /* IE */
-          transform: skew(-10deg); /* Padrão */
-  }
-
-.bg-1 {
-  position: relative;
-  left:-50px;
-  -webkit-transform: skew(-10deg); /* Chrome, Opera */
-      -ms-transform: skew(-10deg); /* IE */
-          transform: skew(-10deg); /* Padrão */
-}
-
-.bg-2 {
-  position: relative;
-  left:-50px;
-  -webkit-transform: skew(-10deg); /* Chrome, Opera */
-      -ms-transform: skew(-10deg); /* IE */
-          transform: skew(-10deg); /* Padrão */
-}
-
 titulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
@@ -234,6 +205,34 @@ background-size: contain;
       margin-top: 50px;
     }
 
+    .positive {
+      -webkit-transform: skew(10deg); /* Chrome, Opera */
+          -ms-transform: skew(10deg); /* IE */
+              transform: skew(10deg); /* Padrão */
+    }
+
+    .negative {
+      -webkit-transform: skew(-10deg); /* Chrome, Opera */
+          -ms-transform: skew(-10deg); /* IE */
+              transform: skew(-10deg); /* Padrão */
+      }
+
+    .bg-1 {
+      position: relative;
+      left:-50px;
+      -webkit-transform: skew(-10deg); /* Chrome, Opera */
+          -ms-transform: skew(-10deg); /* IE */
+              transform: skew(-10deg); /* Padrão */
+    }
+
+    .bg-2 {
+      position: relative;
+      left:-50px;
+      -webkit-transform: skew(-10deg); /* Chrome, Opera */
+          -ms-transform: skew(-10deg); /* IE */
+              transform: skew(-10deg); /* Padrão */
+    }
+
 }
 
 @media only screen and (min-width: 801px) {
@@ -283,5 +282,33 @@ background-size: contain;
         -ms-transform: skew(0deg); /* IE */
             transform: skew(0deg); /* Padrão */
     overflow: hidden;
+  }
+
+  .positive {
+    -webkit-transform: skew(10deg); /* Chrome, Opera */
+        -ms-transform: skew(10deg); /* IE */
+            transform: skew(10deg); /* Padrão */
+  }
+
+  .negative {
+    -webkit-transform: skew(-10deg); /* Chrome, Opera */
+        -ms-transform: skew(-10deg); /* IE */
+            transform: skew(-10deg); /* Padrão */
+    }
+
+  .bg-1 {
+    position: relative;
+    left:-50px;
+    -webkit-transform: skew(-10deg); /* Chrome, Opera */
+        -ms-transform: skew(-10deg); /* IE */
+            transform: skew(-10deg); /* Padrão */
+  }
+
+  .bg-2 {
+    position: relative;
+    left:-50px;
+    -webkit-transform: skew(-10deg); /* Chrome, Opera */
+        -ms-transform: skew(-10deg); /* IE */
+            transform: skew(-10deg); /* Padrão */
   }
 }
