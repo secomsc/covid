@@ -148,7 +148,13 @@ background-size: contain;
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+  titulo {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
 
   .center {
     margin-top: 50px;
@@ -241,12 +247,10 @@ background-size: contain;
 
 
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 851px) {
   .margintop {
     margin-top: 160px;
   }
-
-  .margindireita {
     margin-right: 50px;
   }
 
@@ -342,6 +346,6 @@ background-size: contain;
   }
 
   .hoverimg:hover {
-    filter:contrast(120%);
+    filter:contrast(110%);
   }
 }
