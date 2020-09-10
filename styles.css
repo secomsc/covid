@@ -14,6 +14,8 @@ destaque {
   background-color: #333333;
   text-align: left;
   text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .active {
@@ -57,11 +59,12 @@ titulo {
 
 .center {
   text-align: center;
+  margin-top: 50px;
 }
 
-.justify {
-  text-align: center;
-  padding: 0 10%;
+.entrada {
+  text-align: left;
+  padding: 40px 10%;
 }
 
 titulo-menor {
@@ -72,7 +75,7 @@ titulo-menor {
 
 apoio {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: justify;
   margin-top: 50px;
 }
@@ -191,6 +194,12 @@ background-size: contain;
   titulo {
     font-size: 4em;
   }
+
+  .cadabravo {
+    width: 70%;
+    margin-left: 15%;
+  }
+
   .desktop {
     display: none;
   }
@@ -211,6 +220,12 @@ background-size: contain;
   titulo {
     font-size: 4em;
   }
+
+  .cadabravo {
+    width: 40%;
+    margin-left: 30%;
+  }
+
   .desktop {
     float: left;
     width: 100%;
@@ -278,6 +293,11 @@ background-size: contain;
 }
 
 @media only screen and (max-width: 850px) {
+
+  .cadabravo {
+    width: 90%;
+    margin: auto;
+  }
 
   .foot-diagonal {
     display: none;
@@ -499,4 +519,10 @@ background-size: contain;
     filter:none;
   }
 
+}
+
+@media only screen and (min-width: 1500px) {
+  .olho {
+    width: 50%;
+  }
 }
