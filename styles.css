@@ -13,9 +13,6 @@ destaque {
 .navbar {
   background-color: #333333;
   text-align: left;
-  text-transform: uppercase;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .active {
@@ -27,7 +24,14 @@ destaque {
 
 
 .navbar-brand {
+  font-family: 'Cairo', sans-serif;
+  border-top: 2px solid #810d0d;
+  border-bottom: 2px solid #0f6400;
+  font-size: 1.2em;
   margin-right: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+
 }
 
 .theme-button {
@@ -51,10 +55,9 @@ font-weight: bold;}
 
 
 titulo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 6em;
   text-align: center;
-  margin-top: 50px;
 }
 
 .center {
@@ -64,7 +67,7 @@ titulo {
 
 .entrada {
   text-align: left;
-  padding: 40px 10%;
+  padding: 0 10%;
 }
 
 titulo-menor {
@@ -192,17 +195,18 @@ background-size: contain;
 
 @media only screen and (max-width: 1023px) {
   titulo {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .cadabravo {
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    text-align: center;
   }
 
   .desktop {
     display: none;
   }
+
   #tudo {
     padding: 0 15px;
   }
@@ -222,14 +226,12 @@ background-size: contain;
   }
 
   .cadabravo {
-    width: 40%;
-    margin-left: 30%;
+    width: 100%;
   }
 
   .desktop {
     float: left;
     width: 100%;
-    margin-bottom: 50px;
   }
 
   .mobi {
@@ -295,8 +297,7 @@ background-size: contain;
 @media only screen and (max-width: 850px) {
 
   .cadabravo {
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 
   .foot-diagonal {
@@ -446,8 +447,8 @@ background-size: contain;
 
   .skew-1 {
     float: left;
-    width: 19%;
-    margin-right: 0.7%;
+    width: 19.6%;
+    margin-right: 0.5%;
     height: 300px;
     -webkit-transform: skew(0deg); /* Chrome, Opera */
         -ms-transform: skew(0deg); /* IE */
@@ -457,8 +458,8 @@ background-size: contain;
 
   .skew-2 {
     float: left;
-    width: 19%;
-    margin-right: 0.7%;
+    width: 19.6%;
+    margin-right: 0.5%;
     height: 300px;
     -webkit-transform: skew(0deg); /* Chrome, Opera */
         -ms-transform: skew(0deg); /* IE */
@@ -468,8 +469,7 @@ background-size: contain;
 
   .skew-3 {
     float: left;
-    width: 19%;
-    margin-right: 0.7%;
+    width: 19.6%;
     height: 300px;
     -webkit-transform: skew(0deg); /* Chrome, Opera */
         -ms-transform: skew(0deg); /* IE */
@@ -489,22 +489,10 @@ background-size: contain;
             transform: skew(-10deg); /* Padrão */
     }
 
-  .bg-1 {
+  .bg {
     position: relative;
     left:-50px;
-    -webkit-transform: skew(-10deg); /* Chrome, Opera */
-        -ms-transform: skew(-10deg); /* IE */
-            transform: skew(-10deg); /* Padrão */
   }
-
-  .bg-2 {
-    position: relative;
-    left:-50px;
-    -webkit-transform: skew(-10deg); /* Chrome, Opera */
-        -ms-transform: skew(-10deg); /* IE */
-            transform: skew(-10deg); /* Padrão */
-  }
-
 
   }
   .hoverimg:hover {
