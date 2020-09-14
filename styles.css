@@ -193,6 +193,11 @@ background-size: contain;
   text-decoration: none;
   color: #FFFFFF;
 }
+.abertura-educacao {
+  margin: 30px 10% 50px 10%;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 1023px) {
 
