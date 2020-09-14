@@ -89,6 +89,7 @@ apoio {
   margin-bottom: 30px;
 }
 
+
 .bg-recuperada {
   background-image: url('fotos/recuperada.jpg');
   background-position: center;
@@ -194,6 +195,20 @@ background-size: contain;
 }
 
 @media only screen and (max-width: 1023px) {
+
+  .footer {
+    float:left;
+    text-align: center;
+    bottom: 0;
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #555555;
+    color: #FFFFFF;
+  }
+
   titulo {
     font-size: 3em;
   }
@@ -223,6 +238,10 @@ background-size: contain;
 @media only screen and (min-width: 1024px) {
   titulo {
     font-size: 4em;
+  }
+
+  .footer {
+    float:left;
   }
 
   .cadabravo {
@@ -267,6 +286,65 @@ background-size: contain;
     display: none;
   }
 
+  .mosaico {
+    width:100%;
+    float:left;
+    text-align: right;
+    font-size: 0.8em;
+    margin-bottom: 40px;
+  }
+
+  .mosaico-1 {
+    width: 24.75%;
+    float: left;
+    margin-right: 0.5%;
+    margin-bottom: 3px;
+  }
+
+  .mosaico-2 {
+    width: 24.75%;
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 0.5%;
+  }
+
+  .mosaico-3 {
+    width: 24.75%;
+    float: left;
+    margin-right: 0.5%;
+
+  }
+
+  .mosaico-4 {
+    width: 24.75%;
+    float: left;
+    margin-right: 0.5%;
+  }
+
+  .mosaico-maior {
+    width: 49.5%;
+    float: right;
+  }
+
+  .foto-meio-meio {
+    text-align: center;
+    font-size: 0.8em;
+    width:99%;
+    margin-left: 0.5%;
+    float:left;
+  }
+
+  .foto-1 {
+    width: 49.75%;
+    float:left;
+    margin-right: 0.5%;
+  }
+
+  .foto-2 {
+    width: 49.75%;
+    float:left;
+  }
+
   .foto-flutuante-recuperada {
     background-image: url('fotos/recuperada-meio.jpg');
     background-position: center;
@@ -296,8 +374,76 @@ background-size: contain;
 
 @media only screen and (max-width: 850px) {
 
+  .caixa-cinza {
+    float: left;
+    width: 100%;
+    padding: 30px 3% 30px 3%;
+    background-color: #DCDCDC;
+    border-radius: 5px;
+  }
+
   .cadabravo {
     width: 100%;
+  }
+
+  .mosaico {
+    text-align: right;
+    font-size: 0.8em;
+    width:100%;
+    float:left;
+    margin-bottom: 50px;
+  }
+
+  .mosaico-1 {
+    width: 49.75%;
+    float: left;
+    margin-right: 0.5%;
+    margin-bottom: 4px;
+  }
+
+  .mosaico-2 {
+    width: 49.75%;
+    float: left;
+    margin-bottom: 4px;
+  }
+
+  .mosaico-3 {
+    width: 49.75%;
+    float: left;
+    margin-right: 0.5%;
+
+  }
+
+  .mosaico-4 {
+    width: 49.75%;
+    float: left;
+  }
+
+  .mosaico-maior {
+    margin-top: 4px;
+    width: 100%;
+    float: left;
+  }
+
+
+  .foto-meio-meio {
+    text-align: center;
+    font-size: 0.8em;
+    width:99%;
+    margin-left: 0.5%;
+    float:left;
+  }
+
+  .foto-1 {
+    width: 100%;
+    float:left;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .foto-2 {
+    width: 100%;
+    float:left;
   }
 
   .foot-diagonal {
@@ -346,18 +492,6 @@ background-size: contain;
   .logo {
     text-align: center;
     width: 100%;
-  }
-
-  .footer {
-    text-align: center;
-    bottom: 0;
-    margin-top: 60px;
-    width: 100%;
-    height: 200px;
-    line-height: 60px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #555555;
-    color: #FFFFFF;
   }
 
 
