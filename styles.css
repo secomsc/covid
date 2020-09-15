@@ -25,10 +25,8 @@ destaque {
 
 .navbar-brand {
   font-family: 'Cairo', sans-serif;
-  border-top: 2px solid #810d0d;
-  border-bottom: 2px solid #0f6400;
   font-size: 1.2em;
-  margin-right: 30px;
+  margin-right: 20px;
   padding-top: 0;
   padding-bottom: 0;
 
@@ -219,7 +217,7 @@ background-size: contain;
   }
 
   .cadabravo {
-    width: 100%;
+    width: 85%;
     text-align: center;
   }
 
@@ -250,7 +248,8 @@ background-size: contain;
   }
 
   .cadabravo {
-    width: 100%;
+    width: 80%;
+
   }
 
   .desktop {
@@ -388,7 +387,8 @@ background-size: contain;
   }
 
   .cadabravo {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 10px;
   }
 
   .mosaico {
@@ -464,7 +464,7 @@ background-size: contain;
   }
 
   .center {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .margintop {
