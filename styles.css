@@ -85,6 +85,12 @@ apoio {
   text-align: right;
   font-size: 0.8em;
   width:100%;
+  margin-bottom: 20px;
+}
+
+.foto-recuperados {
+  position: relative;
+  width:100%;
   margin-bottom: 30px;
 }
 
@@ -126,6 +132,7 @@ h1-maior {
 }
 
 
+
 .olho-container {
   display: flex;
   align-items: center;
@@ -148,6 +155,20 @@ h1-maior {
   padding-left: 5px;
   margin-right: 5%;
   width: 60%;
+}
+
+.olho-gov {
+  font-family: Trebuchet MS, serif;
+  background-repeat: no-repeat;
+  font-size: 1.6em;
+  color: #000;
+  line-height: 1.4em;
+  float: left;
+  text-align: center;
+  padding-left: 5px;
+  margin-right: 5%;
+  width: 90%;
+  margin: 20px 5% 10px 5%;
 }
 
 .autor {
@@ -193,7 +214,7 @@ background-size: contain;
   color: #FFFFFF;
 }
 .abertura-educacao {
-  margin: 30px 10% 50px 10%;
+  margin: 30px 10% 20px 10%;
   text-align: center;
 }
 
@@ -410,18 +431,18 @@ background-size: contain;
     margin-bottom: 5px;
   }
 
-  .foto-flutuante-recuperada {
-    background-image: url('fotos/recuperada-meio.jpg');
+  .foto-flutuante-recuperado {
+    background-image: url('fotos/ebirajara.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 650px;
-    margin-bottom: 45px;
-    margin-top: 45px;
+    min-height: 750px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
-  .olho-recuperada {
+  .olho-recuperado {
     border-left: 2px #FFFFFF solid;
     font-family: Trebuchet MS, serif;
     font-size: 2.6em;
@@ -429,8 +450,9 @@ background-size: contain;
     line-height: 1.4em;
     position: absolute;
     right: 0;
+    bottom: 30;
     text-align: left;
-    margin: 250px 60px 0 0;
+    margin: 450px 20px 0 0;
     padding-left: 15px;
     width: 33%;
   }
@@ -565,7 +587,7 @@ background-size: contain;
     font-size: 3em;
   }
 
-  .olho {
+  .olho, .olho-gov {
     width:80%;
     margin: 20px 10% 10px 10%;
     float: none;
