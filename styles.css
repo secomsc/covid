@@ -13,6 +13,7 @@ destaque {
 .navbar {
   background-color: #333333;
   text-align: left;
+  padding-left: 0;
 }
 
 .active {
@@ -42,7 +43,6 @@ destaque {
   margin-right: 20px;
   padding-top: 0;
   padding-bottom: 0;
-
 }
 
 .theme-button {
