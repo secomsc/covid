@@ -500,6 +500,7 @@ background-size: contain;
   .caixa-cinza {
     float: left;
     width: 100%;
+    margin-top: 40px;
     padding: 30px 3% 30px 3%;
     background-color: #DCDCDC;
     border-radius: 5px;
