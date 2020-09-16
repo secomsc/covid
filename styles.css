@@ -22,6 +22,18 @@ destaque {
   border-radius:.25rem!important
 }
 
+.expediente {
+  background-color: #555555;
+  color: #AAAAAA;
+  text-align: center;
+  width: 100%;
+  border-top: solid 1px #CCCCCC;
+  padding: 10px 10% 30px 10%;
+  font-size: 1em;
+  font-family: 'Source Sans Pro',sans-serif,Tahoma,Geneva;
+  line-height: 1.2em;
+}
+
 
 .navbar-brand {
   font-family: 'Cairo', sans-serif;
@@ -252,7 +264,7 @@ background-size: contain;
     height: 200px;
     line-height: 60px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #555555;
+    background-color: #444444;
     color: #FFFFFF;
   }
 
@@ -694,7 +706,7 @@ background-size: contain;
     height: 60px;
     line-height: 60px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #555555;
+    background-color: #444444;
     color: #FFFFFF;
   }
 
