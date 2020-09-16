@@ -42,8 +42,9 @@ float: left;
 line-height: 0.8;
 font-size: 4em;
 margin-right: 0.1em;
-font-weight: bold;}
+font-weight: bold;
 }
+
 
 #tudo {
   font-family: 'Source Sans Pro',sans-serif,Tahoma,Geneva;
@@ -65,7 +66,7 @@ titulo {
 
 .entrada {
   text-align: left;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 titulo-menor {
@@ -199,6 +200,28 @@ background-size: contain;
 
 @media only screen and (max-width: 1023px) {
 
+  .capa1 {
+    float: left;
+    width: 33.2%;
+    margin-right: 0.4%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .capa2 {
+    float: left;
+    width: 66.4%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .capa3 {
+    float: left;
+    width: 16.2%;
+    height: 300px;
+    overflow: hidden;
+  }
+
   .footer {
     float:left;
     text-align: center;
@@ -241,6 +264,29 @@ background-size: contain;
 @media only screen and (min-width: 1024px) {
   titulo {
     font-size: 4em;
+  }
+
+  .capa1 {
+    float: left;
+    width: 16.2%;
+    margin-right: 0.4%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .capa2 {
+    float: left;
+    width: 33.6%;
+    margin-right: 0.4%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .capa3 {
+    float: left;
+    width: 16.2%;
+    height: 300px;
+    overflow: hidden;
   }
 
   .footer {
@@ -339,14 +385,29 @@ background-size: contain;
   }
 
   .foto-1 {
-    width: 49.75%;
+    width: 49.8%;
     float:left;
-    margin-right: 0.5%;
+    margin-right: 0.4%;
+    margin-bottom: 5px;
   }
 
   .foto-2 {
-    width: 49.75%;
+    width: 49.8%;
     float:left;
+    margin-bottom: 5px;
+  }
+
+  .foto-1-med {
+    width: 49.8%;
+    float:left;
+    margin-right: 0.4%;
+    margin-bottom: 5px;
+  }
+
+  .foto-2-med {
+    width: 49.8%;
+    float:left;
+    margin-bottom: 5px;
   }
 
   .foto-flutuante-recuperada {
@@ -377,6 +438,29 @@ background-size: contain;
 }
 
 @media only screen and (max-width: 850px) {
+
+  .video-youtube {
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 30px;
+  }
+
+  .foto-1-med {
+    width: 49.8%;
+    float:left;
+    margin-bottom: 3px;
+  }
+
+  .foto-2-med {
+    width: 49.8%;
+    float:left;
+    margin-right: 0.4%;
+    margin-bottom: 3px;
+  }
+
+  .navbar-brand-desk {
+    display: none;
+  }
 
   .caixa-cinza {
     float: left;
@@ -443,7 +527,7 @@ background-size: contain;
     width: 100%;
     float:left;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
   }
 
   .foto-2 {
@@ -540,8 +624,36 @@ background-size: contain;
 }
 
 
+@media only screen and (min-width: 1900px) {
+  .capa1, .capa2, .capa3 {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .capa1, .capa2, .capa3 {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .capa1, .capa2, .capa3 {
+    height: 320px;
+  }
+}
+
 
 @media only screen and (min-width: 851px) {
+
+  .video-youtube {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+
+  .navbar-brand-mobi {
+    display: none;
+  }
 
   .recuperada-desk {
     background-color: #e0f3f9;
@@ -572,6 +684,7 @@ background-size: contain;
   .mobile-only {
     display:none;
   }
+
   .boneco-mobile {
     display: none;
   }
@@ -584,56 +697,11 @@ background-size: contain;
     min-width: 754px;
   }
 
-  .skew-1 {
-    float: left;
-    width: 19.6%;
-    margin-right: 0.5%;
-    height: 300px;
-    -webkit-transform: skew(0deg); /* Chrome, Opera */
-        -ms-transform: skew(0deg); /* IE */
-            transform: skew(0deg); /* Padrão */
-    overflow: hidden;
-  }
-
-  .skew-2 {
-    float: left;
-    width: 19.6%;
-    margin-right: 0.5%;
-    height: 300px;
-    -webkit-transform: skew(0deg); /* Chrome, Opera */
-        -ms-transform: skew(0deg); /* IE */
-            transform: skew(0deg); /* Padrão */
-    overflow: hidden;
-  }
-
-  .skew-3 {
-    float: left;
-    width: 19.6%;
-    height: 300px;
-    -webkit-transform: skew(0deg); /* Chrome, Opera */
-        -ms-transform: skew(0deg); /* IE */
-            transform: skew(0deg); /* Padrão */
-    overflow: hidden;
-  }
-
-  .positive {
-    -webkit-transform: skew(10deg); /* Chrome, Opera */
-        -ms-transform: skew(10deg); /* IE */
-            transform: skew(10deg); /* Padrão */
-  }
-
-  .negative {
-    -webkit-transform: skew(-10deg); /* Chrome, Opera */
-        -ms-transform: skew(-10deg); /* IE */
-            transform: skew(-10deg); /* Padrão */
-    }
-
   .bg {
     position: relative;
     left:-50px;
   }
 
-  }
   .hoverimg:hover {
     filter:contrast(110%);
   }
